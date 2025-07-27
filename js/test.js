@@ -18,7 +18,7 @@ function createProductCards() {
         var productCard = document.createElement('div');
         productCard.className = "product-info";
         productCard.innerHTML = `
-           <div class="product-image">
+            <div class="product-image">
                 <img src="${product.images[0]}" alt="Product Image">
                 <button class="wishlist-btn"></button>
                 <div class="quick-add" id="quick-add"> Quick Add</div>
