@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/test.css">
+</head>
+<body>
+    <div class = "Cart-contener">
+        <div class ="Cart-butt">
+        <span id="cart-button" class="close" >Cart 
+            <span class="cart-count">0</span>
+        </span>
+        </div>
+    </div>
+
+
+    <div class ="Add-Cart" id="AddCart">
+    </div>
+
+    <div class="cart-product" id="cartSidebar">
+        <div class="cart-header">
+            <h3 class="cart-title">Shopping Cart (<span id="cartItemCount">0</span>)</h3>
+            <button class="cart-close close" >×</button>
+        </div>
+        <div class="cart-content">
+            <div class="cart-message">Your cart is empty</div>
+            <div class="cart-subtitle">Add some items to get started!</div>
+        </div> 
+        <div class="cart-footer">
+        <div class="cart-total">
+            <span>Total:</span>
+            <span id="cartTotal">$0.00</span>
+        </div>
+        <button class="checkout-btn">Checkout</button>
+        <button class="continue-shopping close" >Continue Shopping</button>
+    </div>
+    </div>
+    
+
+
+    <div class="overlay close" id="overlay" ></div>
+    </div>
+<script src="./js/test.js"></script>
+</body>
+</html>
